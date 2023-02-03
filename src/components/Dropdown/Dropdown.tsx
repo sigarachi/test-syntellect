@@ -10,11 +10,7 @@ export const Dropdown: FC<DropdownValues> = ({
 }) => {
 	return (
 		<div className={'dropdown-container'}>
-			<Input
-				onChange={inputProps.onChange}
-				placeholder={''}
-				value={inputProps.value}
-			/>
+			<Input {...inputProps} />
 			{!!inputProps.value && (
 				<div className={'item-container'}>
 					{values &&
