@@ -9,9 +9,7 @@ export const FirstTaskModel = observer(() => {
 	return (
 		<>
 			<Input
-				onChange={(event) =>
-					firstTaskStore.setValue(event.target.value)
-				}
+				onChange={(event) => firstTaskStore.setValue(event.target.value)}
 				value={firstTaskStore.value}
 				placeholder={''}
 				buttons={[

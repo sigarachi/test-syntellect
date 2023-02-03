@@ -27,11 +27,7 @@ export const Dropdown: FC<DropdownValues> = ({
 										onClick(item.label);
 									}}>
 									{!!item.iconUrl && (
-										<img
-											width={'40%'}
-											src={item.iconUrl}
-											alt={'icon'}
-										/>
+										<img width={'40%'} src={item.iconUrl} alt={'icon'} />
 									)}
 									<div>
 										<p>{item.label}</p>

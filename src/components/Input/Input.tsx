@@ -11,16 +11,12 @@ export const Input: FC<InputProps> = ({
 }) => {
 	const buttonsLeft = useMemo(
 		() =>
-			buttons!?.filter(
-				(item) => item.position === InputButtonPosition.LEFT
-			),
+			buttons!?.filter((item) => item.position === InputButtonPosition.LEFT),
 		[buttons]
 	);
 	const buttonsRight = useMemo(
 		() =>
-			buttons!?.filter(
-				(item) => item.position === InputButtonPosition.RIGHT
-			),
+			buttons!?.filter((item) => item.position === InputButtonPosition.RIGHT),
 		[buttons]
 	);
 

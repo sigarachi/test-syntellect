@@ -16,9 +16,7 @@ export const ThirdTaskModel = observer(() => {
 	return (
 		<div>
 			<div className={'button-container'}>
-				<button onClick={() => thirdTaskStore.setHelpersCount(3)}>
-					Set 3
-				</button>
+				<button onClick={() => thirdTaskStore.setHelpersCount(3)}>Set 3</button>
 
 				<button onClick={() => thirdTaskStore.setHelpersCount(10)}>
 					Set 10

@@ -11,9 +11,7 @@ export const SecondTaskModel = observer(() => {
 	return (
 		<>
 			<Input
-				onChange={(event) =>
-					secondTaskStore.setValue(event.target.value)
-				}
+				onChange={(event) => secondTaskStore.setValue(event.target.value)}
 				value={secondTaskStore.value}
 				placeholder={''}
 				buttons={[
